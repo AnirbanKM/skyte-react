@@ -1,0 +1,18 @@
+if (eachCountry.key == eachValue) {
+    setMatchValue(eachCountry);
+}
+
+const intersection = array1.filter(element => array2.includes(element));
+
+
+value.map((eachValue) => {
+
+    country.filter((eachCountry) => {
+
+        if (eachCountry.key == eachValue) {
+            // console.log(eachCountry);
+            setMatchValue(prev => [...prev, eachCountry]);
+        }
+
+    });
+});
